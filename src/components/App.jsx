@@ -1,3 +1,3 @@
 export const App = () => {
-  return <p> organic-fruit-project </p>;
+  return <p> Test </p>;
 };
