@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/organic-fruit-project/static/css/main.7acaea2f.css",
-    "main.js": "/organic-fruit-project/static/js/main.dd08b68d.js",
+    "main.css": "/organic-fruit-project/static/css/main.16d61f98.css",
+    "main.js": "/organic-fruit-project/static/js/main.c1728b33.js",
     "index.html": "/organic-fruit-project/index.html",
-    "main.7acaea2f.css.map": "/organic-fruit-project/static/css/main.7acaea2f.css.map",
-    "main.dd08b68d.js.map": "/organic-fruit-project/static/js/main.dd08b68d.js.map"
+    "main.16d61f98.css.map": "/organic-fruit-project/static/css/main.16d61f98.css.map",
+    "main.c1728b33.js.map": "/organic-fruit-project/static/js/main.c1728b33.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.dd08b68d.js"
+    "static/css/main.16d61f98.css",
+    "static/js/main.c1728b33.js"
   ]
 }
