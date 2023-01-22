@@ -602,7 +602,7 @@
         "isMulticolor": true,
         "isMulticolor2": false,
         "grid": 0,
-        "tags": ["two-colored-star"],
+        "tags": ["twoColoredStar"],
         "colorPermutations": {
           "11372002531150214411166166166118623510812042042041241185111252191411254212451255255255171774017320392191661091961822551": [
             { "f": 7 },
@@ -617,7 +617,7 @@
       "properties": {
         "order": 24,
         "id": 2,
-        "name": "two-colored-star",
+        "name": "twoColoredStar",
         "prevSize": 32,
         "code": 59675,
         "codes": [59675, 59676]
