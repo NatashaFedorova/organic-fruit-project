@@ -11,7 +11,8 @@ export const HeroSection = styled.section`
 `;
 
 export const HeroContainer = styled(Container)`
-  padding: 51px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-image: url(${ImgFirstSrc}), url(${ImgSecondSrc});
   background-position: 120px 321px, 5px 0px;
   background-repeat: no-repeat, no-repeat;
@@ -79,7 +80,6 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   width: 250px;
-  height: 116px;
   padding-top: 17px;
   padding-bottom: 17px;
   padding-left: 33px;
