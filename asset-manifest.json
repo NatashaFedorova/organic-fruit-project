@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/organic-fruit-project/static/css/main.16d61f98.css",
-    "main.js": "/organic-fruit-project/static/js/main.b38718bd.js",
+    "main.js": "/organic-fruit-project/static/js/main.ab072a6f.js",
     "static/media/vegetables-fruits-fix-min.png": "/organic-fruit-project/static/media/vegetables-fruits-fix-min.f177ef8b59a5e8beae21.png",
     "static/media/fresh-melientha-min.png": "/organic-fruit-project/static/media/fresh-melientha-min.d1e1fcd5f1bf14dc11b4.png",
     "index.html": "/organic-fruit-project/index.html",
     "main.16d61f98.css.map": "/organic-fruit-project/static/css/main.16d61f98.css.map",
-    "main.b38718bd.js.map": "/organic-fruit-project/static/js/main.b38718bd.js.map"
+    "main.ab072a6f.js.map": "/organic-fruit-project/static/js/main.ab072a6f.js.map"
   },
   "entrypoints": [
     "static/css/main.16d61f98.css",
-    "static/js/main.b38718bd.js"
+    "static/js/main.ab072a6f.js"
   ]
 }
