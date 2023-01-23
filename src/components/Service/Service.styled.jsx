@@ -1,13 +1,23 @@
-import { Container } from 'components/constants/Container.styled';
-import { TextDefault } from 'components/constants/DefaultStyle.styled';
 import styled from 'styled-components';
+import { CgArrowLongDown } from 'react-icons/cg';
+import line from '../../allImages/images/line-bg-min.png';
+import { Container } from 'components/constants/Container.styled';
+import { Button, TextDefault } from 'components/constants/DefaultStyle.styled';
 
-export const ServiceSection = styled.section`
+export const ServiceSection = styled.section``;
+
+export const ServiceContainer = styled(Container)`
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
+  background-image: url(${line});
+  background-repeat: no-repeat;
+  background-position: 450px -92px;
 `;
 
-export const ServiceContainer = styled(Container)``;
+export const Box = styled.div``;
 
 export const SectionTitle = styled.h2`
   margin-bottom: 20px;
@@ -20,7 +30,6 @@ export const SectionTitle = styled.h2`
 
 export const Text = styled(TextDefault)`
   width: 637px;
-  margin-bottom: 56px;
 `;
 
 export const List = styled.ul`
@@ -31,7 +40,9 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 60px;
+  height: 160px;
+  padding-left: 60px;
+  padding-right: 60px;
 
   &:nth-child(even) {
     background-color: ${props => props.theme.colors.backgroudAccent};
@@ -64,3 +75,37 @@ export const AboutServise = styled.p`
   font-size: ${props => props.theme.fontSizes.small};
   line-height: 1.43;
 `;
+
+export const Btn = styled(Button)`
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: ${props => props.theme.colors.accent};
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid ${props => props.theme.colors.accent};
+    background-color: ${props => props.theme.colors.accent};
+    color: ${props => props.theme.colors.backgroudMain};
+  }
+`;
+
+export const BtnIcon = styled(CgArrowLongDown)`
+  color: inherit;
+`;
+
+export const BoxForImg = styled.div`
+  width: 600px;
+  height: 600px;
+`;
+
+export const Img = styled.img``;

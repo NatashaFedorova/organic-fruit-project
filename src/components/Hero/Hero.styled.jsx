@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { CgArrowLongRight } from 'react-icons/cg';
 import { Container } from '../constants/Container.styled';
 import { Button, TextDefault } from 'components/constants/DefaultStyle.styled';
-
 import ImgFirstSrc from '../../allImages/images/vegetables-fruits-fix-min.png';
 import ImgSecondSrc from '../../allImages/images/fresh-melientha-min.png';
 

@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import 'animate.css';
 import { FiSearch } from 'react-icons/fi';
 import { SlBasket } from 'react-icons/sl';
 import { Container } from '../constants/Container.styled';
 import { Button } from 'components/constants/DefaultStyle.styled';
 
 export const HeaderBox = styled.header`
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 `;
 
 export const HeaderContainer = styled(Container)`
@@ -21,6 +22,8 @@ export const NavList = styled.ul`
   display: flex;
   align-items: center;
   gap: 40px;
+  animation: fadeInLeft;
+  animation-duration: 1s;
 `;
 
 export const NavItem = styled.li``;
@@ -38,11 +41,16 @@ export const NavLink = styled.a`
   }
 `;
 
-export const Logo = styled.a``;
+export const Logo = styled.a`
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+`;
 
 export const Box = styled.div`
   display: flex;
   align-items: center;
+  animation: fadeInRight;
+  animation-duration: 1s;
 `;
 
 export const SearchBtn = styled(Button)`
