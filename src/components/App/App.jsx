@@ -13,6 +13,9 @@ const App = () => {
       <Main>
         <Hero />
         <Service />
+        <section>
+          <h2>Explore Our Special Items</h2>
+        </section>
       </Main>
       <Footer>
         <Container></Container>
