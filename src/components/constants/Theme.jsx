@@ -16,6 +16,6 @@ export const theme = Object.freeze({
   fontWeight: {
     normal: '400',
     medium: '500',
-    bolt: '700',
+    bold: '700',
   },
 });

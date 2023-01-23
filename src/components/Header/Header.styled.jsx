@@ -100,6 +100,8 @@ export const BasketIcon = styled(SlBasket)`
 `;
 
 export const RegisterBtn = styled(Button)`
+  width: 160px;
+  height: 40px;
   padding: 10px 23px;
   border-radius: 8px;
   border: 1px solid transparent;
