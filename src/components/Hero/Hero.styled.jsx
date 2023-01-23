@@ -83,7 +83,6 @@ export const Item = styled.li`
   padding-top: 17px;
   padding-bottom: 17px;
   padding-left: 33px;
-
   background-color: ${props => props.theme.colors.backgroudMain};
 
   &:not(:last-child) {

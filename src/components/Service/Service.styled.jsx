@@ -39,12 +39,8 @@ export const Item = styled.li`
 `;
 
 export const BoxForIcon = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-right: 24px;
-  width: 80px;
-  height: 80px;
+  padding: 20px;
   border-radius: 50%;
   background-color: ${props => props.theme.colors.backgroudMain};
 

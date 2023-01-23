@@ -51,8 +51,8 @@ const Service = () => {
             <BoxForIcon>
               <Icon size="40px" icon="fast-time" />
             </BoxForIcon>
-            <Title>24 / 8 Service</Title>
             <Info>
+              <Title>24 / 8 Service</Title>
               <AboutServise>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
