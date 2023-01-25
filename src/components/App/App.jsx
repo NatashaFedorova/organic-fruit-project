@@ -1,6 +1,8 @@
 import { Main, Footer } from 'components/constants/DefaultStyle.styled';
 import Hero from 'components/Hero';
+import Reviews from 'components/Reviews';
 import Service from 'components/Service';
+import SpecialItems from 'components/SpecialItems';
 import { Background } from '../constants/Background.styled';
 import { Container } from '../constants/Container.styled';
 // import Icon from './Icon/Icon';
@@ -13,9 +15,8 @@ const App = () => {
       <Main>
         <Hero />
         <Service />
-        <section>
-          <h2>Explore Our Special Items</h2>
-        </section>
+        <SpecialItems />
+        <Reviews />
       </Main>
       <Footer>
         <Container></Container>

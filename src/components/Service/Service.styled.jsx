@@ -2,7 +2,11 @@ import styled from 'styled-components';
 import { CgArrowLongDown } from 'react-icons/cg';
 import line from '../../allImages/images/line-bg-min.png';
 import { Container } from 'components/constants/Container.styled';
-import { Button, TextDefault } from 'components/constants/DefaultStyle.styled';
+import {
+  Button,
+  DefaultSectionTitle,
+  TextDefault,
+} from 'components/constants/DefaultStyle.styled';
 
 export const ServiceSection = styled.section``;
 
@@ -19,14 +23,7 @@ export const ServiceContainer = styled(Container)`
 
 export const Box = styled.div``;
 
-export const SectionTitle = styled.h2`
-  margin-bottom: 20px;
-  font-family: 'Rosario', sans-serif;
-  font-weight: ${props => props.theme.fontWeight.bold};
-  font-size: ${props => props.theme.fontSizes.large};
-  line-height: 1.29;
-  color: ${props => props.theme.colors.title};
-`;
+export const SectionTitle = styled(DefaultSectionTitle)``;
 
 export const Text = styled(TextDefault)`
   width: 637px;
