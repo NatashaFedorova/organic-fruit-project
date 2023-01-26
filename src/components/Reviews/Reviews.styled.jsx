@@ -12,7 +12,19 @@ export const ReviewsSection = styled.section`
   padding-top: 100px;
 `;
 
-export const ReviewsContainer = styled(Container)``;
+export const ReviewsContainer = styled(Container)`
+  position: relative;
+`;
+
+export const Box = styled.div`
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+`;
+
+export const Info = styled.div`
+  padding-bottom: 32px;
+`;
 
 export const Title = styled(DefaultSectionTitle)`
   width: 640px;
@@ -31,13 +43,10 @@ export const Name = styled.h3`
   color: ${props => props.theme.colors.title};
 `;
 
-export const Box = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 175px;
-`;
-
 export const BoxForButtons = styled.div`
+  position: absolute;
+  left: 427px;
+  bottom: 20px;
   display: flex;
   align-items: center;
   gap: 26px;
@@ -69,4 +78,20 @@ export const ArrowLeft = styled(RiArrowLeftSLine)`
 
 export const ArrowRight = styled(RiArrowRightSLine)`
   color: inherit;
+`;
+
+export const Img = styled.img`
+  width: 447px;
+  height: 445px;
+`;
+
+export const BoxForImg = styled.div`
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  min-width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: ${props => props.theme.colors.backgroudAccent}; ;
 `;
