@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const Main = styled.main``;
 
-export const Footer = styled.footer``;
-
 export const Button = styled.button`
   cursor: pointer;
   display: block;

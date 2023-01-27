@@ -18,7 +18,7 @@ import Icon from '../Icon/Icon';
 
 const Hero = () => {
   return (
-    <HeroSection>
+    <HeroSection id="about">
       <HeroContainer>
         <Title>Organic Fruit & Vegetables</Title>
         <Text>

@@ -15,7 +15,7 @@ import {
 
 const SpecialItems = () => {
   return (
-    <SpecialItemsSection>
+    <SpecialItemsSection id="menu">
       <SpecialItemsContainer>
         <Img src={ImgSection} width="600" alt="fruit and vegetables" />
         <Box>

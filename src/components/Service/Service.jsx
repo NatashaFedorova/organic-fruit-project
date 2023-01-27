@@ -20,7 +20,7 @@ import {
 
 const Service = () => {
   return (
-    <ServiceSection>
+    <ServiceSection id="service">
       <ServiceContainer>
         <Box>
           <SectionTitle>Why we are the best?</SectionTitle>

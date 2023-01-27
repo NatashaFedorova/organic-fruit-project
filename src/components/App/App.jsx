@@ -1,10 +1,11 @@
-import { Main, Footer } from 'components/constants/DefaultStyle.styled';
+import { Main } from 'components/constants/DefaultStyle.styled';
+import Download from 'components/Download';
+import Footer from 'components/Footer';
 import Hero from 'components/Hero';
 import Reviews from 'components/Reviews';
 import Service from 'components/Service';
 import SpecialItems from 'components/SpecialItems';
 import { Background } from '../constants/Background.styled';
-import { Container } from '../constants/Container.styled';
 // import Icon from './Icon/Icon';
 import Header from '../Header';
 
@@ -17,10 +18,9 @@ const App = () => {
         <Service />
         <SpecialItems />
         <Reviews />
+        <Download />
       </Main>
-      <Footer>
-        <Container></Container>
-      </Footer>
+      <Footer />
     </Background>
   );
 };

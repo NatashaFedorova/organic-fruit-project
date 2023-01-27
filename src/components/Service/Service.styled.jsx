@@ -27,6 +27,7 @@ export const SectionTitle = styled(DefaultSectionTitle)``;
 
 export const Text = styled(TextDefault)`
   width: 637px;
+  text-align: justify;
 `;
 
 export const List = styled.ul`

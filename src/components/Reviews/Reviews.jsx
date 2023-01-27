@@ -18,7 +18,7 @@ import ImgSrc from '../../allImages/images/customers-min.png';
 
 const Reviews = () => {
   return (
-    <ReviewsSection>
+    <ReviewsSection id="reviews">
       <ReviewsContainer>
         <Box>
           <Info>

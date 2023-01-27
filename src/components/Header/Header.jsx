@@ -23,16 +23,16 @@ const Header = () => {
         <Nav>
           <NavList>
             <NavItem>
-              <NavLink href="/">About us</NavLink>
+              <NavLink href="#about">About us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Service</NavLink>
+              <NavLink href="#service">Service</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Menu</NavLink>
+              <NavLink href="#menu">Menu</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Contact</NavLink>
+              <NavLink href="#contacts">Contact</NavLink>
             </NavItem>
           </NavList>
         </Nav>

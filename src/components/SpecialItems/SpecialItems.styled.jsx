@@ -36,6 +36,7 @@ export const Title = styled(DefaultSectionTitle)`
 export const Text = styled(TextDefault)`
   width: 575px;
   margin-bottom: 50px;
+  text-align: justify;
 `;
 
 export const BoxForBtn = styled.div`

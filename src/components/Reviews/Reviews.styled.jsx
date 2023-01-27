@@ -33,6 +33,7 @@ export const Title = styled(DefaultSectionTitle)`
 export const Text = styled(TextDefault)`
   width: 586px;
   margin-bottom: 40px;
+  text-align: justify;
 `;
 
 export const Name = styled.h3`
