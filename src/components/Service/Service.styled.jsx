@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { fadeInDown, fadeInLeft, fadeInRight } from 'react-animations';
+import { fadeInLeft } from 'react-animations';
 import { CgArrowLongDown } from 'react-icons/cg';
 import line from '../../allImages/images/line-bg-min.png';
 import { Container } from 'components/constants/Container.styled';
@@ -9,9 +9,7 @@ import {
   TextDefault,
 } from 'components/constants/DefaultStyle.styled';
 
-const fadeInDownAnimation = keyframes`${fadeInDown}`;
 const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
-const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
 export const ServiceSection = styled.section``;
 
