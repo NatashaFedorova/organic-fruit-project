@@ -1,3 +1,4 @@
+import AnimationBox from 'components/constants/AnimationBox';
 import Icon from 'components/Icon/Icon';
 import ImgService from '../../allImages/images/component-bg-service.png';
 import {
@@ -16,6 +17,7 @@ import {
   Img,
   Btn,
   BtnIcon,
+  ItemContainer,
 } from './Service.styled';
 
 const Service = () => {
@@ -31,40 +33,55 @@ const Service = () => {
           </Text>
           <List>
             <Item>
-              <BoxForIcon>
-                <Icon size="40px" icon="courier" />
-              </BoxForIcon>
-              <Info>
-                <Title>Fasted delivery service</Title>
-                <AboutServise>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </AboutServise>
-              </Info>
+              <AnimationBox animateIn={['animate__fadeInLeft']} duration={1.25}>
+                <ItemContainer>
+                  <BoxForIcon>
+                    <Icon size="40px" icon="courier" />
+                  </BoxForIcon>
+                  <Info>
+                    <Title>Fasted delivery service</Title>
+                    <AboutServise>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </AboutServise>
+                  </Info>
+                </ItemContainer>
+              </AnimationBox>
             </Item>
             <Item>
-              <BoxForIcon>
-                <Icon size="40px" icon="shopping" />
-              </BoxForIcon>
-              <Info>
-                <Title>Online order service</Title>
-                <AboutServise>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </AboutServise>
-              </Info>
+              <AnimationBox
+                animateIn={['animate__fadeInRight']}
+                duration={1.25}
+              >
+                <ItemContainer>
+                  <BoxForIcon>
+                    <Icon size="40px" icon="shopping" />
+                  </BoxForIcon>
+                  <Info>
+                    <Title>Online order service</Title>
+                    <AboutServise>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </AboutServise>
+                  </Info>
+                </ItemContainer>
+              </AnimationBox>
             </Item>
             <Item>
-              <BoxForIcon>
-                <Icon size="40px" icon="fast-time" />
-              </BoxForIcon>
-              <Info>
-                <Title>24 / 8 Service</Title>
-                <AboutServise>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </AboutServise>
-              </Info>
+              <AnimationBox animateIn={['animate__fadeInLeft']} duration={1.25}>
+                <ItemContainer>
+                  <BoxForIcon>
+                    <Icon size="40px" icon="fast-time" />
+                  </BoxForIcon>
+                  <Info>
+                    <Title>24 / 8 Service</Title>
+                    <AboutServise>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </AboutServise>
+                  </Info>
+                </ItemContainer>
+              </AnimationBox>
             </Item>
           </List>
           <Btn type="button">
