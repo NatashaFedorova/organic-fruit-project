@@ -1,9 +1,13 @@
-import styled from 'styled-components';
-import 'animate.css';
+import styled, { keyframes } from 'styled-components';
+import { fadeInDown, fadeInLeft, fadeInRight } from 'react-animations';
 import { FiSearch } from 'react-icons/fi';
 import { SlBasket } from 'react-icons/sl';
 import { Container } from '../constants/Container.styled';
 import { Button } from 'components/constants/DefaultStyle.styled';
+
+const fadeInDownAnimation = keyframes`${fadeInDown}`;
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
 export const HeaderBox = styled.header`
   padding-top: 40px;
@@ -22,8 +26,7 @@ export const NavList = styled.ul`
   display: flex;
   align-items: center;
   gap: 40px;
-  animation: fadeInLeft;
-  animation-duration: 1s;
+  animation: 1s ${fadeInLeftAnimation};
 `;
 
 export const NavItem = styled.li``;
@@ -42,15 +45,19 @@ export const NavLink = styled.a`
 `;
 
 export const Logo = styled.a`
-  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
+  animation: 1s ${fadeInDownAnimation};
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.25);
+  }
 `;
 
 export const Box = styled.div`
   display: flex;
   align-items: center;
-  animation: fadeInRight;
-  animation-duration: 1s;
+  animation: 1s ${fadeInRightAnimation};
 `;
 
 export const SearchBtn = styled(Button)`

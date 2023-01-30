@@ -18,8 +18,14 @@ export const FooterContainer = styled(Container)`
 export const BoxAbout = styled.div``;
 
 export const Logo = styled.a`
-  display: block;
+  display: inline-block;
   margin-bottom: 30px;
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.25);
+  }
 `;
 
 export const Text = styled(TextDefault)`

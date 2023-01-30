@@ -1,9 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { CgArrowLongRight } from 'react-icons/cg';
+import { fadeInDown, fadeInLeft, fadeInRight } from 'react-animations';
 import { Container } from '../constants/Container.styled';
 import { Button, TextDefault } from 'components/constants/DefaultStyle.styled';
 import ImgFirstSrc from '../../allImages/images/vegetables-fruits-fix-min.png';
 import ImgSecondSrc from '../../allImages/images/fresh-melientha-min.png';
+
+const fadeInDownAnimation = keyframes`${fadeInDown}`;
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
 export const HeroSection = styled.section`
   background-color: ${props => props.theme.colors.backgroudAccent};
@@ -24,6 +29,7 @@ export const Title = styled.h1`
   font-size: ${props => props.theme.fontSizes.large};
   line-height: 1.29;
   color: ${props => props.theme.colors.title};
+  animation: 1s ${fadeInDownAnimation};
 `;
 
 export const Text = styled(TextDefault)`
@@ -32,6 +38,7 @@ export const Text = styled(TextDefault)`
   margin-bottom: 40px;
   width: 637px;
   text-align: center;
+  animation: 1s ${fadeInDownAnimation};
 `;
 
 export const Box = styled.div`
@@ -46,6 +53,7 @@ export const TextForBtn = styled.p`
   font-size: ${props => props.theme.fontSizes.medium};
   line-height: 1.67;
   color: ${props => props.theme.colors.title};
+  animation: 1s ${fadeInRightAnimation};
 `;
 
 export const OrderBtn = styled(Button)`
@@ -58,6 +66,7 @@ export const OrderBtn = styled(Button)`
   border: 1px solid ${props => props.theme.colors.accent};
   background-color: ${props => props.theme.colors.accent};
   color: ${props => props.theme.colors.backgroudMain};
+  animation: 1s ${fadeInLeftAnimation};
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -98,9 +107,12 @@ export const BoxForIcon = styled.div`
   height: 56px;
   border-radius: 50%;
   background-color: ${props => props.theme.colors.backgroudAccent};
+  animation: 1s ${fadeInRightAnimation};
 `;
 
-export const Info = styled.div``;
+export const Info = styled.div`
+  animation: 1s ${fadeInLeftAnimation};
+`;
 
 export const Value = styled.p`
   margin-bottom: 4px;

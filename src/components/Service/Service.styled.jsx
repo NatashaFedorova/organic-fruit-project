@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { fadeInDown, fadeInLeft, fadeInRight } from 'react-animations';
 import { CgArrowLongDown } from 'react-icons/cg';
 import line from '../../allImages/images/line-bg-min.png';
 import { Container } from 'components/constants/Container.styled';
@@ -7,6 +8,10 @@ import {
   DefaultSectionTitle,
   TextDefault,
 } from 'components/constants/DefaultStyle.styled';
+
+const fadeInDownAnimation = keyframes`${fadeInDown}`;
+const fadeInLeftAnimation = keyframes`${fadeInLeft}`;
+const fadeInRightAnimation = keyframes`${fadeInRight}`;
 
 export const ServiceSection = styled.section``;
 
@@ -41,6 +46,18 @@ export const Item = styled.li`
   height: 160px;
   padding-left: 60px;
   padding-right: 60px;
+
+  &:nth-child(1) {
+    animation: 1s ${fadeInLeftAnimation};
+  }
+
+  &:nth-child(2) {
+    animation: 1.25s ${fadeInLeftAnimation};
+  }
+
+  &:nth-child(3) {
+    animation: 1.5s ${fadeInLeftAnimation};
+  }
 
   &:nth-child(even) {
     background-color: ${props => props.theme.colors.backgroudAccent};
